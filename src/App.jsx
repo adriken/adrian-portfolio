@@ -5,7 +5,7 @@ const resumeFile = "/Adrian_Adams_Resume.pdf";
 
 const profileImage = "/profile-photo.jpg"; // Replace with your professional photo in the public folder const resumeFile = "/Adrian_Adams_Resume.pdf"; // Put your generated resume PDF in the public folder
 
-const contact = useMemo( () => ({ email: "adrikenadams@gmail.com", phone: "+2547631288", whatsapp: "https://wa.me/254757631288", linkedin: "https://www.linkedin.com/in/adrian-adams-627901337/", instagram: "https://instagram.com/adams.effect", github: "https://github.com/adriken-tech", }), [] );
+const contact = useMemo( () => ({ email: "adrikenadams@gmail.com", phone: "+254757631288", whatsapp: "https://wa.me/254757631288", linkedin: "https://www.linkedin.com/in/adrian-adams-627901337/", instagram: "https://instagram.com/adams.effect", github: "https://github.com/adriken-tech", }), [] );
 
 const heroStats = [ { label: "AI-first builds", value: "3" }, { label: "Live flagship product", value: "2" }, { label: "Focus", value: "Products that solve real problems" }, ];
 
