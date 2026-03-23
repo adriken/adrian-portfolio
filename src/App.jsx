@@ -7,9 +7,24 @@ const profileImage = "/profile-photo.jpg"; // Replace with your professional pho
 
 const contact = useMemo( () => ({ email: "adrikenadams@gmail.com", phone: "+2547631288", whatsapp: "https://wa.me/254757631288", linkedin: "https://www.linkedin.com/in/adrian-adams-627901337/", instagram: "https://instagram.com/adams.effect", github: "https://github.com/adriken-tech", }), [] );
 
-const heroStats = [ { label: "AI-first builds", value: "2" }, { label: "Live flagship product", value: "1" }, { label: "Focus", value: "Products that solve real problems" }, ];
+const heroStats = [ { label: "AI-first builds", value: "3" }, { label: "Live flagship product", value: "2" }, { label: "Focus", value: "Products that solve real problems" }, ];
 
-const projects = [ { id: "01", title: "Adriken AI Assistant", category: "Project 1 · AI Service Discovery Prototype", summary: "Built the first Adriken version as a local-first AI assistant that helped users get business ideas, practical guidance, and curated professional direction through a conversational interface.", problem: "People often know they need help but do not know where to begin or which direction to take.", solution: "Created a streamlined AI assistant experience that translated user intent into clear recommendations and useful next steps.", stack: ["Python", "Streamlit", "Ollama", "Prompt Design", "GitHub"], status: "Built & deployed", accent: "from-orange-500/20 to-amber-400/10", linkLabel: "View Adriken concept", link: "#", }, { id: "02", title: "Adriken Marketplace", category: "Project 2 · Marketplace Product Evolution", summary: "Evolved Adriken into a broader marketplace where people can find services or offer theirs, while entrepreneurs and professionals get discovered by customers actively searching for them.", problem: "Finding the right service is fragmented, and providers still struggle to be discovered at the moment demand exists.", solution: "Turned Adriken into an AI-powered marketplace centered on simple intent: find services or offer yours, with a cleaner product direction and market-ready positioning.", stack: ["Product Strategy", "AI Workflow Design", "Marketplace Thinking", "UI Direction", "Brand Positioning"], status: "Latest live product direction", accent: "from-sky-500/20 to-orange-500/10", linkLabel: "View latest Adriken", link: "https://adriken.com", }, ];
+const projects = [ { id: "01", title: "Adriken AI Assistant", category: "Project 1 · AI Service Discovery Prototype", summary: "Built the first Adriken version as a local-first AI assistant that helped users get business ideas, practical guidance, and curated professional direction through a conversational interface.", problem: "People often know they need help but do not know where to begin or which direction to take.", solution: "Created a streamlined AI assistant experience that translated user intent into clear recommendations and useful next steps.", stack: ["Python", "Streamlit", "Ollama", "Prompt Design", "GitHub"], status: "Built & deployed", accent: "from-orange-500/20 to-amber-400/10", linkLabel: "View Adriken concept", link: "#", }, { id: "02", title: "Adriken Marketplace", category: "Project 2 · Marketplace Product Evolution", summary: "Evolved Adriken into a broader marketplace where people can find services or offer theirs, while entrepreneurs and professionals get discovered by customers actively searching for them.", problem: "Finding the right service is fragmented, and providers still struggle to be discovered at the moment demand exists.", solution: "Turned Adriken into an AI-powered marketplace centered on simple intent: find services or offer yours, with a cleaner product direction and market-ready positioning.", stack: ["Product Strategy", "AI Workflow Design", "Marketplace Thinking", "UI Direction", "Brand Positioning"], status: "Latest live product direction", accent: "from-sky-500/20 to-orange-500/10", linkLabel: "View latest Adriken", link: "https://adriken.com", }, {
+  id: "03",
+  title: "Sameta Diaspora Benevolent",
+  category: "Project 3 · Community Platform Website",
+  summary:
+    "Designed and built a modern benevolent community website for Sameta Diaspora Benevolent, focused on trust, clarity, and fast access to membership, support, and leadership contacts.",
+  problem:
+    "The organization needed a professional digital presence that could clearly communicate its mission, organize member onboarding, and make support information easily accessible in a respectful and dependable way.",
+  solution:
+    "Built a community-friendly website with clear membership requirements, support pathways, leadership contact access, and document-ready infrastructure for registration, bylaws, and bereavement reporting.",
+  stack: ["React", "Vite", "Tailwind CSS", "UI/UX", "Vercel"],
+  status: "Live",
+  accent: "from-emerald-500/15 to-orange-500/10",
+  linkLabel: "View live site",
+  link: "https://sameta-benevolent.vercel.app",
+},];
 
 
 const skills = [
